@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navBar {
+    width: 95%;
+}
+
+.contactBar {
+    /* background-color: aquamarine; */
+    color: #484848;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    border-bottom: 1px solid #484848;
+}
+
+
+.personalDetails {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: azure; */
+    gap: 40px;
+}
+
+.parentHelpdesk {
+    height: 100%;
+    width: 150px;
+    background-color: #deebff;
+    color: #247cff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.personalDetails i {
+    color: #247cff;
+}
+
+.socialLinks {
+    width: 40%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* background-color: cornflowerblue; */
+}
+
+.social>ul>li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+    background-color: #deebff;
+    color: #247cff;
+    cursor: pointer;
+}
+
+
+.social>ul>li:hover {
+
+    background-color: #247cff;
+    color: white;
+
+}
+
+h1 {
+    font-size: 15px;
+}
+
+
+.mobileNo {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+
+.email {
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.menuBar {
+    display: block;
+    background-color: blueviolet;
+    height: 60px;
+    display: flex;
+}
+
+.logo {
+    height: 100%;
+    width: 25%;
+    background-color: chartreuse;
+}
+
+.menuItems {
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+}
+
+.contact {
+    height: 100%;
+    width: 25%;
+    background-color: darkmagenta;
+}
